@@ -8,14 +8,10 @@
   --tertiary-bg-color: rgba(245, 244, 250, 1);
 }
 
-html {
-  box-sizing: border-box;
-}
-
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {
