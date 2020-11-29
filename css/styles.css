@@ -42,6 +42,10 @@ ol {
   padding: 0;
 }
 
+img {
+  display: block;
+}
+
 address {
   font-style: normal;
 }
@@ -51,6 +55,7 @@ address {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  outline: 2px solid tomato;
 }
 
 /* ============HEADER================= */
@@ -60,6 +65,39 @@ address {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.header .logo {
+  margin-right: 92px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+}
+
+.navigation-list .navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contact {
+  margin-left: auto;
+}
+.contact-list {
+  display: flex;
+}
+
+.contact-list .contact-list-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .logo {
@@ -72,10 +110,18 @@ address {
 }
 
 .navigation-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-text-color);
 }
 
 .contact-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--secondary-text-color);
 }
 
