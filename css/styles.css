@@ -139,10 +139,12 @@ address {
 
 /* ============HERO================= */
 .hero {
-  background-color: var(--primary-bg-color);
-  text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+
+  background-color: var(--primary-bg-color);
+
+  text-align: center;
 }
 
 .hero-title {
@@ -179,9 +181,10 @@ address {
 
 /* ============FEATURES================= */
 .features {
-  background-color: var(--secondary-bg-color);
   padding-top: 94px;
   padding-bottom: 94px;
+
+  background-color: var(--secondary-bg-color);
 }
 
 .features-title.hidden {
@@ -224,6 +227,7 @@ address {
 
 .list-item-subtitle {
   color: var(--secondary-text-color);
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -234,15 +238,25 @@ address {
 
 /* ============SERVICES================= */
 .services {
+  padding-bottom: 94px;
+
   background-color: var(--secondary-bg-color);
 }
 .services-title {
+  margin-bottom: 50px;
+
   color: var(--primary-text-color);
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-between;
 }
 /* ============END SERVICES============= */
 
