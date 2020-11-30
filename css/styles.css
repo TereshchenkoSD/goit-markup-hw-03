@@ -289,11 +289,8 @@ address {
   margin-right: 30px;
 }
 
-.team-list-img {
-  margin-bottom: 30px;
-}
-
 .team-text-wrapper {
+  padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 59px;
   padding-right: 59px;
