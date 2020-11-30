@@ -323,6 +323,9 @@ address {
 
 /* ============PORTFOLIO================= */
 .portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
   background-color: var(--secondary-bg-color);
 }
 
@@ -339,9 +342,28 @@ address {
   overflow: hidden;
 }
 
+.filter-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.filter-list-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .filter-list-btn {
+  min-width: 74px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border: none;
+  border-radius: 4px;
+
   color: var(--primary-text-color);
   background-color: var(--tertiary-bg-color);
+
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
