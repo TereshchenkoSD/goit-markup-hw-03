@@ -180,6 +180,8 @@ address {
 /* ============FEATURES================= */
 .features {
   background-color: var(--secondary-bg-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features-title.hidden {
@@ -195,8 +197,23 @@ address {
   overflow: hidden;
 }
 
+.features-list {
+  display: flex;
+}
+
+.features-list-item {
+  min-width: 270px;
+}
+
+.features-list .features-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .list-item-title {
+  margin-bottom: 10px;
+
   color: var(--primary-text-color);
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
