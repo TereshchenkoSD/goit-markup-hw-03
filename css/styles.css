@@ -303,10 +303,21 @@ address {
 /* ============FOOTER================= */
 .footer {
   background-color: var(--primary-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
   color: var(--tertiary-text-color);
+}
+
+.container .footer-logo {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.address-list-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address-list-link {
@@ -320,5 +331,9 @@ address {
 .address-list-link:hover,
 .address-list-link:focus {
   color: var(--accent-color);
+}
+
+.white {
+  color: var(--tertiary-text-color);
 }
 /* ============END FOOTER============= */
