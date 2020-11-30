@@ -38,7 +38,8 @@ p {
 
 ul,
 ol,
-a {
+a,
+img {
   margin: 0;
   padding: 0;
 }
@@ -262,11 +263,17 @@ address {
 
 /* ============OUR TEAM================= */
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
   background-color: var(--tertiary-bg-color);
 }
 
 .team-title {
+  margin-bottom: 50px;
+
   color: var(--primary-text-color);
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -274,8 +281,30 @@ address {
   letter-spacing: 0.03em;
 }
 
+.team-list {
+  display: flex;
+}
+
+.team-list .team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-list-img {
+  margin-bottom: 30px;
+}
+
+.team-text-wrapper {
+  padding-bottom: 30px;
+  padding-left: 59px;
+  padding-right: 59px;
+}
+
 .team-list-title {
+  text-align: center;
+  margin-bottom: 10px;
+
   color: var(--primary-text-color);
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -283,7 +312,10 @@ address {
 }
 
 .team-list-subtitle {
+  text-align: center;
+
   color: var(--secondary-text-color);
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
