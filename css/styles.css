@@ -144,6 +144,7 @@ address {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
+  max-width: 1600px;
 
   background-color: var(--primary-bg-color);
 
@@ -402,7 +403,6 @@ address {
   margin-bottom: 30px;
 
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 
 .portfolio-card:nth-child(3n) {
@@ -419,6 +419,8 @@ address {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .portfolio-card-title {
