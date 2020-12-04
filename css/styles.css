@@ -157,7 +157,7 @@ address {
   color: var(--tertiary-text-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1.363;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -177,7 +177,7 @@ address {
 
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.875;
   text-align: center;
   letter-spacing: 0.06em;
 }
@@ -223,7 +223,7 @@ address {
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.142;
   text-align: left;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -234,7 +234,7 @@ address {
 
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.714;
   text-align: left;
   letter-spacing: 0.03em;
 }
@@ -253,7 +253,7 @@ address {
 
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -279,7 +279,7 @@ address {
 
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -317,7 +317,7 @@ address {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 1.187;
   letter-spacing: 0.03em;
 }
 
@@ -328,7 +328,7 @@ address {
 
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 1.187;
   letter-spacing: 0.03em;
 }
 
@@ -380,7 +380,7 @@ address {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -414,13 +414,15 @@ address {
 }
 
 .portfolio-text-wrapper {
-  text-align: left;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+
   border: 1px solid #eeeeee;
   border-top: none;
+
+  text-align: left;
 }
 
 .portfolio-card-title {
@@ -438,7 +440,7 @@ address {
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.875;
   letter-spacing: 0.03em;
 }
 
